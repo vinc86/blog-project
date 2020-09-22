@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blog-project/static/css/main.23aa4c23.chunk.css",
+    "main.js": "/blog-project/static/js/main.1ea8d0aa.chunk.js",
+    "main.js.map": "/blog-project/static/js/main.1ea8d0aa.chunk.js.map",
+    "runtime-main.js": "/blog-project/static/js/runtime-main.4b64186b.js",
+    "runtime-main.js.map": "/blog-project/static/js/runtime-main.4b64186b.js.map",
+    "static/js/2.7d276476.chunk.js": "/blog-project/static/js/2.7d276476.chunk.js",
+    "static/js/2.7d276476.chunk.js.map": "/blog-project/static/js/2.7d276476.chunk.js.map",
+    "index.html": "/blog-project/index.html",
+    "precache-manifest.1720b4d4cc6feb928c43b85f46ef5c4e.js": "/blog-project/precache-manifest.1720b4d4cc6feb928c43b85f46ef5c4e.js",
+    "service-worker.js": "/blog-project/service-worker.js",
+    "static/css/main.23aa4c23.chunk.css.map": "/blog-project/static/css/main.23aa4c23.chunk.css.map",
+    "static/js/2.7d276476.chunk.js.LICENSE.txt": "/blog-project/static/js/2.7d276476.chunk.js.LICENSE.txt",
+    "static/media/empty-box.png": "/blog-project/static/media/empty-box.7c2b8b58.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b64186b.js",
+    "static/js/2.7d276476.chunk.js",
+    "static/css/main.23aa4c23.chunk.css",
+    "static/js/main.1ea8d0aa.chunk.js"
+  ]
+}
