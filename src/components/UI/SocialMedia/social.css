@@ -1,0 +1,60 @@
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social-group {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(214, 253, 231);
+    border-radius: 13px;
+    margin: 10px;
+}
+
+.social-group>a {
+    font-size: 4rem;
+    transition: all 0.4s;
+}
+
+
+.social-group>a:hover i {
+    color: rgb(102, 102, 102);
+    animation: bounce;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce {
+    10% {
+        transform: translateX(-20px);
+    }
+
+    20% {
+        transform: translateY(10px);
+    }
+
+    30% {
+        transform: translateX(-20px);
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+
+}

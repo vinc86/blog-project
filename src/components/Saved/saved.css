@@ -1,0 +1,52 @@
+.saved-posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.saved-posts-container>h2 {
+    font-family: "Vidaloka", serif;
+    font-size: 2rem;
+}
+
+.pinned-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background: rgb(214, 253, 231); */
+}
+
+.pinned-posts>p {
+    text-align: center;
+}
+
+.pinned-container {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pinned-image {
+    width: 100%;
+}
+
+.pinned-title {
+    font-family: "Vidaloka", serif;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px 0px;
+    border-bottom: 1px solid #999;
+    width: 90%;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.articles-count {
+    font-size: 1.3rem;
+    padding: 10px;
+}
