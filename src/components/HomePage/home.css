@@ -3,21 +3,32 @@
     flex-direction: column;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    border-radius: 20px;
 }
 
 textarea {
     resize: none;
     height: 200px;
+    border: none;
     padding: 5px;
     font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input[name="title"] {
-    border: none;
     height: 70px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-family: "Vidaloka", serif;
     font-size: 3rem;
+    border: none;
+}
+
+.inputs {
+    border: none;
+    height: 35px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
 }
 
 input[type=file] {
@@ -32,9 +43,27 @@ input[type=file] {
     align-items: center;
     font-size: 1.7rem;
     border-radius: 50%;
-    border: 2px solid #666;
+    border: none;
 
 
+}
+
+.features-descr {
+    position: absolute;
+    font-size: 1rem;
+    background: #555;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    width: 250px;
+    opacity: 0;
+    top: 20px;
+    left: 20px;
+    transition: opacity 0.4s ease;
+}
+
+.features-menu:hover~.features-descr {
+    opacity: 1;
 }
 
 .menu-container {
@@ -57,7 +86,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    position: relative;
 }
 
 .scale {
@@ -90,4 +119,50 @@ button {
 
 .sub-container {
     overflow: hidden;
+}
+
+.btn-author,
+.btn-descr,
+.btn-cat,
+.btn-image {
+    position: absolute;
+    top: 15%;
+    background: #555;
+    border-radius: 8px;
+    padding: 5px;
+    color: #fff;
+    width: 100px;
+    opacity: 1;
+    border-radius: 10px;
+    scale: 0;
+    width: 100px;
+}
+
+.btn-descr {
+    left: 20px;
+}
+
+
+.btn-cat {
+    left: 120px;
+}
+
+.btn-author {
+    left: 60px;
+}
+
+.author-hover:hover~.btn-author {
+    scale: 1;
+}
+
+.category-hover:hover~.btn-cat {
+    scale: 1;
+}
+
+.description-hover:hover~.btn-descr {
+    scale: 1;
+}
+
+.image-hover:hover~.btn-image {
+    scale: 1;
 }
